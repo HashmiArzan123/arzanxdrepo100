@@ -312,8 +312,8 @@ async def account_login(bot: Client, m: Message):
             try:
                 Show = f"**Downloading:-**\n\n**Name :-** `{name}\nQuality - {raw_text2}`\n\n**Url :-** `{url}`\n\n"
                 prog = await m.reply_text(Show)
-                cc = f'**File Name »** {name1} 🅰🅸🆁 🅿🅷🅴🅾🅽🅸🆇.mp4\n**Batch »** {raw_text0}\n\n**{CR}**'
-                cc1 =f'**File No. »** {str(count).zfill(3)}\n**File Name »** {name1} 🅰🅸🆁 🅿🅷🅴🅾🅽🅸🆇.pdf\n**Batch »** {raw_text0}\n\n**{CR}**'
+                cc = f'**File Name »** {name1} Arzan XD.mp4\n**Batch »** {raw_text0}\n\n**{CR}**'
+                cc1 =f'**File No. »** {str(count).zfill(3)}\n**File Name »** {name1} Arzan_XD.pdf\n**Batch »** {raw_text0}\n\n**{CR}**'
                 if cmd == "pdf" or "drive" in url:
                     try:
                         ka=await helper.download(url,name)
